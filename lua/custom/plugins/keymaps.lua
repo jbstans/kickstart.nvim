@@ -8,9 +8,6 @@ local keymaps = {
   vim.keymap.set('n', '<space>fb', function()
     require('telescope').extensions.file_browser.file_browser()
   end),
-
-  -- Neotree
-  vim.keymap.set('n', '<space>e', ':Neotree<CR>'),
 }
 
 return { keymaps }
