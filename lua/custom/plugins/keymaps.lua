@@ -6,4 +6,7 @@ return {
   vim.keymap.set('n', '<space>fb', function()
     require('telescope').extensions.file_browser.file_browser()
   end),
+  vim.keymap.set('n', '<space>ng', function()
+    require('neogit').open()
+  end),
 }
