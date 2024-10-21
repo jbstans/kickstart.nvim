@@ -9,4 +9,5 @@ return {
   vim.keymap.set('n', '<space>ng', function()
     require('neogit').open()
   end),
+  vim.keymap.set('n', '<space>x', ':bp <BAR> bd #<CR>'),
 }
